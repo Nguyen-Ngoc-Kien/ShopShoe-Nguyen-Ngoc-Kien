@@ -7,7 +7,7 @@
       <div class="cart flex items-center cursor-pointer relative right-[60px]" @click="toggleCart">
   <i class="fas fa-shopping-cart text-gray-700 text-xl"></i>
   <span class="ml-2 text-gray-700">{{ translations.cart }}</span>
-  <div v-if="isCartVisible" class="cart border border-gray-300 rounded-lg shadow-lg absolute p-4 bg-white top-[45px] w-[350px] -right-[120px] flex flex-col gap-[10px] overflow-hidden z-50">
+  <div v-if="isCartVisible" class="cart border border-gray-300 rounded-lg shadow-lg absolute p-4 bg-white top-[45px] w-[350px] -right-[95px] flex flex-col gap-[10px] overflow-hidden z-50">
     <h2 class="text-center text-2xl font-bold">{{ translations.cartTitle }}</h2>
     <div class="border-b-[1px] border-gray-300"></div>
 
